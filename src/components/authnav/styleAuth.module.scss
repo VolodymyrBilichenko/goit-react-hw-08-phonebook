@@ -1,0 +1,34 @@
+
+  
+  .item {
+    list-style: none;
+  }
+  
+  
+  .link:hover {
+    background:rgba(255, 255, 255, 0.6)
+    
+  }
+
+  .link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background: #5a5c69;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50em;
+    text-decoration: none;
+  }
+  
+  .link.active {
+    color: #e84a5f;
+  }
+
+ .link:not(:last-child) {
+  
+  margin-right: 20px;
+ }

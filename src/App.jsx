@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Layout } from 'components/layout/Layout';
-import { LoginPage, Dashboard } from 'pages';
+import { Layout } from './components/layout/Layout';
+import { LoginPage, Dashboard } from './pages';
 import { RegisterForm } from './components/registrationFrom/registerForm';
 import { refreshCurrentUser } from './components/redux/auth/auth-operations';
 import { PrivateRoute } from './components/privateRoute';
@@ -10,8 +10,8 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { PublicRoute } from './components/publickRoute';
 import { Navigate } from 'react-router-dom';
-// import {fetchContacts} from './components/redux/createSlice'
 import { Route, Routes } from 'react-router-dom';
+
 export const App = () => {
   const dispatch = useDispatch();
 

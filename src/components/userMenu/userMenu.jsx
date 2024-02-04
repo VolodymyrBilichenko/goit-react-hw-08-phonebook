@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 // import { toast } from "react-toastify"
-import { logout } from '../redux/auth/auth-operations';
+import { logout } from '../../redux/auth/auth-operations';
 import style from './userMenustyle.module.scss';
 import Avatar from '@mui/material/Avatar';
 export const Usermenu = () => {

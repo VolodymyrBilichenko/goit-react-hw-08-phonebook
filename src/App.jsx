@@ -3,7 +3,7 @@ import React from 'react';
 import { Layout } from './components/layout/Layout';
 import { LoginPage, Dashboard } from './pages';
 import { RegisterForm } from './components/registrationFrom/registerForm';
-import { refreshCurrentUser } from './components/redux/auth/auth-operations';
+import { refreshCurrentUser } from './redux/auth/auth-operations';
 import { PrivateRoute } from './components/privateRoute';
 import {Toast} from './components/toats/toats'
 import { useEffect } from 'react';

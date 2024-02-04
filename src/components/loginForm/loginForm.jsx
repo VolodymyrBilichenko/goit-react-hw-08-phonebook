@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import style from './styleLoginForm.module.scss';
-import { login } from '../redux/auth/auth-operations';
+import { login } from '../../redux/auth/auth-operations';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import LockPersonOutlinedIcon from '@mui/icons-material/LockPersonOutlined';
 export const LoginForm = () => {

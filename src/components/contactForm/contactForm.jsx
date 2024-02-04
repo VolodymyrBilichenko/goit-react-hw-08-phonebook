@@ -3,9 +3,9 @@ import React from 'react';
 import style from './contactform.module.scss';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchContacts } from '../redux/createSlice';
+import { fetchContacts } from '../../redux/createSlice';
 import { nanoid } from 'nanoid';
-import { fetchContactsAdd } from '../redux/createSlice';
+import { fetchContactsAdd } from '../../redux/createSlice';
 import { useEffect } from 'react';
 
 export const Contactform = () => {

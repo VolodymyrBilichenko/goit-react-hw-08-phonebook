@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchDeleteContacts } from '../redux/createSlice';
+import { fetchDeleteContacts } from '../../redux/createSlice';
 import style from './contactlist.module.scss';
 import Avatar from '@mui/material/Avatar';
 export const Contactslist = () => {
